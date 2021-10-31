@@ -1,0 +1,43 @@
+body{
+    background: url("https://tse2.mm.bing.net/th?id=OIP.PVreo-swXavSNor-WG6OcQHaEK&pid=Api&P=0&w=287&h=162");
+    width: 100vw;
+    background-size: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+h1{
+    text-align: center;
+}
+.myDiv{
+ display: flex;
+ flex-direction: row;
+ flex-wrap: wrap;
+ align-items: center;
+ justify-content: space-between;
+}
+.moviesCards{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+.moviesCards img{
+    border-collapse: collapse;
+    border-radius: 3px black ;
+    border: solid 4px;
+    width:300px;
+    height:300px;
+    overflow: auto;
+    background-color: white;
+}
+.moviesCards img:hover{
+    opacity: 0.8;
+}
+.moviesCards p{
+    font-family: sans-serif;
+}
+.moviesCards h3{
+    width: 50%;
+}
