@@ -1,43 +1,48 @@
 body{
-    background: url("https://tse2.mm.bing.net/th?id=OIP.PVreo-swXavSNor-WG6OcQHaEK&pid=Api&P=0&w=287&h=162");
+    background: url("https://tse2.mm.bing.net/th?id=OIP.3oE62P85DwL4CDw2xWd2kAHaEK&pid=Api&P=0&w=319&h=180");
     width: 100vw;
-    background-size: 100vh;
+    height: auto;
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    z-index: -1;
+    position: absolute;
 }
 h1{
     text-align: center;
 }
-.myDiv{
- display: flex;
- flex-direction: row;
- flex-wrap: wrap;
- align-items: center;
- justify-content: space-between;
-}
-.moviesCards{
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-between;
-}
-.moviesCards img{
-    border-collapse: collapse;
-    border-radius: 3px black ;
-    border: solid 4px;
-    width:300px;
-    height:300px;
-    overflow: auto;
-    background-color: white;
-}
-.moviesCards img:hover{
-    opacity: 0.8;
-}
-.moviesCards p{
-    font-family: sans-serif;
-}
-.moviesCards h3{
-    width: 50%;
-}
+.searchDiv{
+    text-align: center;
+}    
+.myDiv{    
+ display: flex;    
+ flex-direction: row;    
+ flex-wrap: wrap;    
+ align-items: center;    
+ justify-content: space-between;    
+}    
+.moviesCards{    
+    display: flex;    
+    flex-direction: column;    
+    flex-wrap: wrap;    
+    align-items: center;    
+    justify-content: space-between;    
+}    
+.moviesCards img{    
+    border-collapse: collapse;    
+    border-radius: 3px black ;    
+    border: solid 4px;    
+    width:300px;    
+    height:300px;    
+    overflow: auto;    
+}    
+.moviesCards img:hover{    
+    opacity: 0.7;       
+}    
+.moviesCards p{    
+    font-family: sans-serif;    
+}    
+.moviesCards h3{    
+    width: 50%;    
+}    
+    
